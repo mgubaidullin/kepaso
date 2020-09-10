@@ -10,7 +10,7 @@ class KepasoStreamChannel extends ApplicationChannel {
   @override
   Controller get entryPoint {
     return Router()
-      ..route("/*").link(() => FileController("web/"))
+      ..route("/*").link(() => FileController("web/")..addCachePolicy(const CachePolicy(preventCaching: true), (path) => false))
       ..route("/events").link(() => KepasoEventController())
       ..route("/stream").link(() => KepasoStreamController());
   }

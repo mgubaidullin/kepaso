@@ -20,6 +20,7 @@ class KepasoStreamController extends Controller {
   Future<Response> handle(Request request) async {
     return Response.ok(controller.stream)
       ..bufferOutput = false
+      ..cachePolicy = const CachePolicy(preventCaching: true)
       ..contentType = ContentType("text", "event-stream", charset: "utf-8");
   }
 }

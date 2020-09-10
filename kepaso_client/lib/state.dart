@@ -14,6 +14,7 @@ class SourceController extends GetxController {
 
   remove(String source) {
     sources.remove(source);
+    selectedSource.value = sources.keys.first;
     update();
   }
 

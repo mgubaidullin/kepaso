@@ -6,7 +6,9 @@ void main() {
   final SourceController sourceController = Get.put(SourceController());
 
   var channel = SseClient('/stream');
+  print(channel);
   channel.stream.listen((s) {
+    print(s);
     Map map = json.decode(s);
     CloudEvent e = CloudEvent.fromMap(map);
     dataController.add(e);
@@ -19,7 +21,7 @@ class KepasoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'KEPASO',
+      title: 'KEPASO 1.0',
       theme: ThemeData(
         primaryColor: BLUE,
         accentColor: BLUE,
