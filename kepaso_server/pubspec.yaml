@@ -1,0 +1,14 @@
+name: kepaso_server
+description: Kepaso server
+version: 0.0.1
+author: stable|kernel <kepaso@kepaso.org>
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  aqueduct: 4.0.0-b1
+
+dev_dependencies:
+  test: ^1.0.0
+  aqueduct_test: ^2.0.0-b1
