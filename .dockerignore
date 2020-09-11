@@ -1,9 +1,12 @@
-
 .git
 .cache
 *.md
 
 .idea
-kepaso_client/build
 *.aot
 .Dockerfile
+
+!target/*-runner
+!target/*-runner.jar
+!target/lib/*
+!target/quarkus-app/*
