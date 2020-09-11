@@ -107,7 +107,7 @@ Widget _buildPublisherCard() => _buildRow(
     Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [Text('Post cloudevent to http:/host:port/events', style: INTRO_TITLE), Text(new JsonEncoder.withIndent('   ').convert(example), style: INTRO_CODE)]),
+        children: [Text('Post cloudevent to http://host:port/events', style: INTRO_TITLE), Text(new JsonEncoder.withIndent('   ').convert(example), style: INTRO_CODE)]),
     FaIcon(FontAwesomeIcons.circle, color: GRAY));
 
 Widget _buildChartCard({bool show = true}) => _buildRow(
