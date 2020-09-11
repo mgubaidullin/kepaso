@@ -21,7 +21,7 @@ class KepasoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'KEPASO 1.0',
+      title: 'KEPASO',
       theme: ThemeData(
         primaryColor: BLUE,
         accentColor: BLUE,

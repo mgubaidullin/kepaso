@@ -20,7 +20,7 @@ class IntroLayout extends StatelessWidget {
         toolbarHeight: 78.0,
         centerTitle: false,
         title: Row(
-          children: [FaIcon(FontAwesomeIcons.checkCircle, color: BLUE), Divider(indent: 10), Text('KEPASO', style: LOGO)],
+          children: [FaIcon(FontAwesomeIcons.tachometerAlt, color: BLUE), Divider(indent: 10), Text('KEPASO', style: LOGO)],
         ),
       ),
       body: Container(

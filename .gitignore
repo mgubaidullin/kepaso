@@ -1,4 +1,39 @@
-# See https://www.dartlang.org/guides/libraries/private-files
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
 
 # Files and directories created by pub
 .dart_tool/
@@ -22,6 +57,3 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
-
-.DS_Store
-.idea

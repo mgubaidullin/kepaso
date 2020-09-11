@@ -37,7 +37,7 @@ class CloudEvent {
      specversion = inputMap['specversion'] as String;
      id = inputMap['id'] as String;
      source = inputMap['source'] as String;
-     time = DateTime.parse(inputMap['time'] as String);
+     time = inputMap['time'] != null ? DateTime.parse(inputMap['time'] as String) : null;
      datacontenttype = inputMap['datacontenttype'] as String;
      data = inputMap['data'] as Map<String,dynamic>;
    }
