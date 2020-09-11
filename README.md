@@ -8,7 +8,7 @@
 
 Small and easy-to-use Dashboard for CloudEvents.  
 
-![Monitoring](monitoring.gif)
+![Monitoring](img/monitoring.gif)
  
 ## Requirements
 - User should be able to POST data is JSON CloudEvent format
@@ -16,7 +16,7 @@ Small and easy-to-use Dashboard for CloudEvents.
 - User should be able to start application in Docker container
 
 ## Architecture
-![Architecture](architecture.png)
+![Architecture](img/architecture.png)
 
 - UI - Flutter-based web interface
 - Backend Quarkus-based application
@@ -58,7 +58,7 @@ curl -X POST "http://0.0.0.0:8080/events" -H  "accept: application/json" -H  "Co
 
 UI demo (click "Start demo" button):
 
-![Intro](intro.png)
+![Intro](img/intro.png)
 
 **Enjoy your dashboard!**
 </br>
