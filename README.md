@@ -1,12 +1,14 @@
 # KEPASO
 
-![Build](https://img.shields.io/badge/Build_with-->-gray.svg?style=for-the-badge)
+![Build](https://img.shields.io/badge/KEPASO_Build_with-->-gray.svg?style=for-the-badge)
 ![Java](https://img.shields.io/badge/-Java-blue.svg?style=for-the-badge&logo=Java)
 ![Quarkus](https://img.shields.io/badge/-Quarkus-blue.svg?style=for-the-badge)
 ![Flutter](https://img.shields.io/badge/-Flutter-blue.svg?style=for-the-badge&logo=Flutter)
 ![License](https://img.shields.io/badge/License-Apache-green.svg?style=for-the-badge)
 
-Small and easy-to-use Dashboard for CloudEvents.   
+Small and easy-to-use Dashboard for CloudEvents.  
+
+![Monitoring](monitoring.gif)
  
 ## Requirements
 - User should be able to POST data is JSON CloudEvent format
@@ -58,10 +60,10 @@ UI demo (click "Start demo" button):
 
 ![Intro](intro.png)
 
-Enjoy your dashboard!
-
-![Monitoring](monitoring.gif)
-
+**Enjoy your dashboard!**
+</br>
+</br>
+</br>
 ## Performance
 Startup time
 ```
