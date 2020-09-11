@@ -1,5 +1,5 @@
 name: kepaso_client
-description: Kepaso
+description: KEPASO
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -20,7 +20,7 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.3
+#  cupertino_icons: ^0.1.3
 
 dev_dependencies:
   flutter_test:

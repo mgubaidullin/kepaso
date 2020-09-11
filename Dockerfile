@@ -9,6 +9,7 @@ RUN flutter doctor
 
 COPY ./kepaso_client /app
 RUN flutter config --enable-web
+RUN flutter clean
 RUN flutter build web
 
 
