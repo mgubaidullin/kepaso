@@ -21,6 +21,12 @@ Small and easy-to-use Dashboard for CloudEvents.
 - UI - Flutter-based web interface
 - Backend Quarkus-based application
 
+## Install 
+Pull docker image from [DockerHub](https://hub.docker.com/r/kepaso/kepaso)
+```
+docker pull kepaso/kepaso
+```
+
 ## Build 
 Requires Git and Docker installed.
 ```
